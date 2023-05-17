@@ -32,9 +32,10 @@ button {
 .regularbutton {
     height: 70px;
     width: 70px;   
+    background-color: lightgrey;
 }
 
-.bottom-half {
+.container {
     display: flex;
     align-items: end;
     flex-direction: column;
@@ -55,8 +56,24 @@ button {
     height: 140px;
     padding-top: 10px;
     padding-left: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 .clear {
     width: 150px;
+    background-color: lightgrey;
+}
+
+.delete {
+    background-color: lightgrey;
+}
+
+.text {
+    font-size: 60px;
+}
+
+.optext {
+    font-size: 20px;
 }
